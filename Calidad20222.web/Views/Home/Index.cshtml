@@ -1,0 +1,64 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome Poker Game</h1>
+    
+        
+        <form asp-action="Generar" method="post">
+         @for(int x = 0; x < 5; x++)
+            {
+                <div>
+                    <select name="numero_@x" id="@x">
+                        @{
+                            var contador = 0;
+                        }
+
+                        @for (int i = 0; i < 13; i++)
+                        {
+                            contador = i + 1;
+                            <option value="@contador">@contador</option>
+                        }
+                    </select>
+
+                    <select name="tipo_@x">
+                        <option value="@ViewBag.coco">
+                            @ViewBag.coco
+                        </option>
+
+                        <option value="@ViewBag.trebol">
+                            @ViewBag.trebol
+                        </option>
+
+                        <option value="@ViewBag.corazon">
+                            @ViewBag.corazon
+                        </option>
+
+                        <option value="@ViewBag.espada">
+                            @ViewBag.espada
+                        </option>
+                    </select>
+                </div>
+            }
+        <button class="btn btn-primary">Generar Jugada</button>
+    </form>
+
+        <table class="table">
+        <thead>
+        <tr>
+            <th>Cartas</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Numero @item.Palo</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+    
+    <h1>Jugada: @ViewBag.Jugada</h1>
+</div>

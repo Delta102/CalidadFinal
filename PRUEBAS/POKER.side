@@ -1,0 +1,849 @@
+{
+  "id": "cf42fa25-11e3-40b9-9cb0-e362662d8e2a",
+  "version": "2.0",
+  "name": "POKER",
+  "url": "https://localhost:7023",
+  "tests": [{
+    "id": "dccc30a8-6471-47da-8043-06d9724dc91d",
+    "name": "Carta Mayor",
+    "commands": [{
+      "id": "9db8cca4-e9b3-4d68-86a8-c3c941ba350c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9e264d19-b01f-40d4-ba4c-563a5cb23dc5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef70b0c4-cff4-4009-a189-1d2517ef3248",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_0",
+      "targets": [
+        ["name=numero_0", "name"],
+        ["css=div:nth-child(1) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_0']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72e4b912-6d03-4fb0-b4b4-0f435bde47ee",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_0",
+      "targets": [],
+      "value": "label=13"
+    }, {
+      "id": "c348658b-5715-45bc-bac6-d4388cadf78f",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_1",
+      "targets": [
+        ["name=numero_1", "name"],
+        ["css=div:nth-child(2) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_1']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84ab9b70-8542-4eae-9faa-f00f53419335",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_1",
+      "targets": [],
+      "value": "label=6"
+    }, {
+      "id": "f0404453-0c39-439f-a0e0-aa461501e3d9",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_3",
+      "targets": [
+        ["name=tipo_3", "name"],
+        ["css=div:nth-child(4) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_3']", "xpath:attributes"],
+        ["xpath=//div[4]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "069fc76a-bb62-455a-bd68-070e19cd0bf4",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_3",
+      "targets": [],
+      "value": "label=CORAZON"
+    }, {
+      "id": "cba7ea0e-df22-47d1-b92c-b1c4832dd184",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_4",
+      "targets": [
+        ["name=numero_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f07a4b2f-4bcc-4d91-aa97-73773b4f890f",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_2",
+      "targets": [
+        ["name=tipo_2", "name"],
+        ["css=div:nth-child(3) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_2']", "xpath:attributes"],
+        ["xpath=//div[3]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67bf16f5-23b4-461a-99be-c5c8be110f80",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_2",
+      "targets": [],
+      "value": "label=TREBOL"
+    }, {
+      "id": "6ec992a5-1296-417c-af48-8ffa51d1b8a6",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_2",
+      "targets": [
+        ["name=numero_2", "name"],
+        ["css=div:nth-child(3) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_2']", "xpath:attributes"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f8874df-8a39-4ac6-b744-5ee78d11690c",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_2",
+      "targets": [],
+      "value": "label=7"
+    }, {
+      "id": "2517ccea-c8d0-41af-a50e-5458c499cba0",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_4",
+      "targets": [
+        ["name=numero_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d568620-7f8f-4901-8233-5d5a500ae06d",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_4",
+      "targets": [],
+      "value": "label=5"
+    }, {
+      "id": "3af58e3d-1017-4d7f-942d-524f7704d3ab",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_4",
+      "targets": [
+        ["name=tipo_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "873aa709-f118-4eb8-944c-e94cfc684fa0",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_4",
+      "targets": [],
+      "value": "label=ESPADA"
+    }, {
+      "id": "9fa038ea-bc32-4add-a6da-cc29d4130b02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generar Jugada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1950340-3f08-41e6-8440-41884bee476a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h1:nth-child(4)",
+      "targets": [
+        ["css=h1:nth-child(4)", "css:finder"],
+        ["xpath=//h1[2]", "xpath:position"],
+        ["xpath=//h1[contains(.,'Jugada: CARTA MAYOR')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdc935d6-d616-41ce-ad29-e30dde739bda",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d19f65d2-ff98-4b04-a81d-693db574a65e",
+    "name": "Carta Doble",
+    "commands": [{
+      "id": "656d9671-9316-4c4a-9b37-678f7f643f15",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e60369c-4af2-4e12-88c8-d9a3e7cc0384",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0877cdd6-1d7b-4200-ae91-bad773554d34",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_0",
+      "targets": [
+        ["name=numero_0", "name"],
+        ["css=div:nth-child(1) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_0']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aedffb35-2598-430b-8b81-9c0c1ab381ed",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_0",
+      "targets": [],
+      "value": "label=5"
+    }, {
+      "id": "2bee4be4-943d-4b51-bf2c-8bcc8a59dcfa",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_0",
+      "targets": [
+        ["name=tipo_0", "name"],
+        ["css=div:nth-child(1) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_0']", "xpath:attributes"],
+        ["xpath=//select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "07801752-5c2a-4596-85e5-5fa419f16819",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_0",
+      "targets": [],
+      "value": "label=TREBOL"
+    }, {
+      "id": "ec65806b-0c40-438e-8315-d6b0dea4db33",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_1",
+      "targets": [
+        ["name=numero_1", "name"],
+        ["css=div:nth-child(2) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_1']", "xpath:attributes"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "457fa7f7-1bc8-497a-bdbc-aa71d1bc25f2",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_1",
+      "targets": [],
+      "value": "label=5"
+    }, {
+      "id": "eb1444f0-8887-4d8b-aeb1-5df5e85b14f6",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_1",
+      "targets": [
+        ["name=tipo_1", "name"],
+        ["css=div:nth-child(2) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_1']", "xpath:attributes"],
+        ["xpath=//div[2]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40e17924-2c4e-46bd-88e3-330ff2934247",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_1",
+      "targets": [],
+      "value": "label=ESPADA"
+    }, {
+      "id": "639547d8-9f0f-49bc-b080-1c7ad379581f",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_3",
+      "targets": [
+        ["name=numero_3", "name"],
+        ["css=div:nth-child(4) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_3']", "xpath:attributes"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa4fa1ea-3fe9-40d5-aa3c-3c647cb1c064",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_3",
+      "targets": [],
+      "value": "label=7"
+    }, {
+      "id": "53c06218-4dde-4ddf-aa07-27e114840dab",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_4",
+      "targets": [
+        ["name=numero_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "278d1687-9f63-4fb4-83fc-9b1e3a608bbc",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_4",
+      "targets": [],
+      "value": "label=11"
+    }, {
+      "id": "380c059c-bb74-4656-93f5-4651fca156ec",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_3",
+      "targets": [
+        ["name=tipo_3", "name"],
+        ["css=div:nth-child(4) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_3']", "xpath:attributes"],
+        ["xpath=//div[4]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ade986f-a5bd-4fc8-8723-48be9a9260c1",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_3",
+      "targets": [],
+      "value": "label=ESPADA"
+    }, {
+      "id": "7bfa9ed5-a6de-45e9-a27c-8f4aec536018",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_4",
+      "targets": [
+        ["name=tipo_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76315c03-a24f-4547-b893-700f58d81c62",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_4",
+      "targets": [],
+      "value": "label=CORAZON"
+    }, {
+      "id": "1bcacaad-fdac-46b3-ab28-7b39cbd5b1ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generar Jugada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2bb0294-3195-46e0-94f7-5b227f7a6010",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h1:nth-child(4)",
+      "targets": [
+        ["css=h1:nth-child(4)", "css:finder"],
+        ["xpath=//h1[2]", "xpath:position"],
+        ["xpath=//h1[contains(.,'Jugada: DOBLE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bba55b28-bcf4-4861-b129-9bbf6abf1863",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "70057b95-5b8e-408b-ad42-07014fc8b623",
+    "name": "DOBLE PAREJA",
+    "commands": [{
+      "id": "13eb2c33-e25d-4771-a60a-f1b411921132",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99ae5d91-802d-48e2-bae8-79c526cf5c6a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "710c66a4-dacd-49b2-b139-e3c13b33c240",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_2",
+      "targets": [
+        ["name=numero_2", "name"],
+        ["css=div:nth-child(3) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_2']", "xpath:attributes"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49884dec-aebe-48ad-93a2-fd075c3bb708",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_2",
+      "targets": [],
+      "value": "label=3"
+    }, {
+      "id": "678c0617-ee30-4cad-b76f-5093d85be31b",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_3",
+      "targets": [
+        ["name=numero_3", "name"],
+        ["css=div:nth-child(4) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_3']", "xpath:attributes"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3174dbe2-f56b-4fed-88f7-ca1506e7d3e3",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_3",
+      "targets": [],
+      "value": "label=3"
+    }, {
+      "id": "7fcfe620-0996-43ef-8b90-9f064e4fb573",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_4",
+      "targets": [
+        ["name=numero_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1832fa08-372a-4e4c-8c44-09373acd2b8d",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_4",
+      "targets": [],
+      "value": "label=11"
+    }, {
+      "id": "6f99d63c-b467-4d87-8909-d3bf86e4b1eb",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='/Home/Generar']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3e5e7c6-9bbb-40e2-84af-f4723bb9b592",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_2",
+      "targets": [],
+      "value": "label=CORAZON"
+    }, {
+      "id": "8a56a818-a454-491f-a461-5cd82ba7df16",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_4",
+      "targets": [
+        ["name=tipo_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a27a7f68-0165-440f-9c95-dbac457eb074",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_4",
+      "targets": [],
+      "value": "label=CORAZON"
+    }, {
+      "id": "960c67e3-8393-4741-a781-6f2c189890e5",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_3",
+      "targets": [
+        ["name=tipo_3", "name"],
+        ["css=div:nth-child(4) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_3']", "xpath:attributes"],
+        ["xpath=//div[4]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9c37286-92ee-4938-ada6-8220bd0e2504",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_3",
+      "targets": [],
+      "value": "label=TREBOL"
+    }, {
+      "id": "cb0ac790-ee7f-4e87-88cc-fe8e3b67ff81",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_1",
+      "targets": [
+        ["name=tipo_1", "name"],
+        ["css=div:nth-child(2) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_1']", "xpath:attributes"],
+        ["xpath=//div[2]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9c3d7fe-3957-4e50-ab37-b39fed20d555",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_1",
+      "targets": [],
+      "value": "label=ESPADA"
+    }, {
+      "id": "8cd65307-de81-495a-a684-bb5d56e9683b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generar Jugada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45289d4c-2799-4f45-9983-e951b5e43be5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h1:nth-child(4)",
+      "targets": [
+        ["css=h1:nth-child(4)", "css:finder"],
+        ["xpath=//h1[2]", "xpath:position"],
+        ["xpath=//h1[contains(.,'Jugada: DOBLE PAREJA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "354a519e-8ec7-4856-a10e-a5f100796555",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "93e018e1-33ac-418f-9a65-db41e9a0d4fd",
+    "name": "TRIO",
+    "commands": [{
+      "id": "0c0bf2ad-093a-4b88-aacb-ddb43316b50a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c0ca75d-6357-46fc-ae33-c056d24ccec5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3abd6fd9-fe6c-4f8e-9f5d-a23a9c9e29fc",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_3",
+      "targets": [
+        ["name=numero_3", "name"],
+        ["css=div:nth-child(4) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_3']", "xpath:attributes"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15502587-1056-4ffe-91fb-f585d1141a74",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_3",
+      "targets": [],
+      "value": "label=5"
+    }, {
+      "id": "0a9309bd-15f7-4d49-91e6-93d4c36e47c4",
+      "comment": "",
+      "command": "click",
+      "target": "name=numero_4",
+      "targets": [
+        ["name=numero_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(1)", "css:finder"],
+        ["xpath=//select[@name='numero_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40bfe125-b992-441d-8194-dd6b55ab58dd",
+      "comment": "",
+      "command": "select",
+      "target": "name=numero_4",
+      "targets": [],
+      "value": "label=9"
+    }, {
+      "id": "62daf7f6-a0d1-4e4c-b25d-c9bd5bd3b568",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_1",
+      "targets": [
+        ["name=tipo_1", "name"],
+        ["css=div:nth-child(2) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_1']", "xpath:attributes"],
+        ["xpath=//div[2]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b970d751-45b6-414b-86e4-ee5eecb2e9a7",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_1",
+      "targets": [],
+      "value": "label=TREBOL"
+    }, {
+      "id": "70715ada-f945-4a33-bd56-0a1ecfde3dca",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_2",
+      "targets": [
+        ["name=tipo_2", "name"],
+        ["css=div:nth-child(3) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_2']", "xpath:attributes"],
+        ["xpath=//div[3]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3100188-5664-40e8-b75b-3ab76491b9d9",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_2",
+      "targets": [],
+      "value": "label=CORAZON"
+    }, {
+      "id": "4d6450c0-43e3-4abc-8b6f-86f362d60d90",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_4",
+      "targets": [
+        ["name=tipo_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "263f8269-5b3f-48e3-94e7-9dbee1185e9d",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_4",
+      "targets": [],
+      "value": "label=ESPADA"
+    }, {
+      "id": "ca6678a9-31aa-4d12-9234-524c354c78af",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generar Jugada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87fc4a85-4ddf-4792-bc14-61ece9ce9c7e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h1:nth-child(4)",
+      "targets": [
+        ["css=h1:nth-child(4)", "css:finder"],
+        ["xpath=//h1[2]", "xpath:position"],
+        ["xpath=//h1[contains(.,'Jugada: TRIO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "bbaf4666-2625-4d68-b5d7-a60e5a76261e",
+    "name": "POKER",
+    "commands": [{
+      "id": "e1de8357-0eb4-422a-830c-9112cf10e8ed",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b0eb51e-c1fe-4890-aded-ee5ccadd65e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "945x1012",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d33341db-fee9-40d5-9b3f-5692038e3186",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_1",
+      "targets": [
+        ["name=tipo_1", "name"],
+        ["css=div:nth-child(2) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_1']", "xpath:attributes"],
+        ["xpath=//div[2]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7979d339-0373-49b0-87cf-cb15d0bbbef6",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_1",
+      "targets": [],
+      "value": "label=TREBOL"
+    }, {
+      "id": "b2816f0c-7de5-4e10-b961-c932bbbeac44",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_2",
+      "targets": [
+        ["name=tipo_2", "name"],
+        ["css=div:nth-child(3) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_2']", "xpath:attributes"],
+        ["xpath=//div[3]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac62d96a-1f29-4a1f-8f0f-a064a5360a3d",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_2",
+      "targets": [],
+      "value": "label=TREBOL"
+    }, {
+      "id": "3e7283a7-8c6b-4b0b-a603-cb4c1931ea8d",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_3",
+      "targets": [
+        ["name=tipo_3", "name"],
+        ["css=div:nth-child(4) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_3']", "xpath:attributes"],
+        ["xpath=//div[4]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dedd3d6a-aaa2-497c-9634-dc4542ba238f",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_3",
+      "targets": [],
+      "value": "label=CORAZON"
+    }, {
+      "id": "ad796287-8065-4e2e-b199-8e2d2fc987f2",
+      "comment": "",
+      "command": "click",
+      "target": "name=tipo_4",
+      "targets": [
+        ["name=tipo_4", "name"],
+        ["css=div:nth-child(5) > select:nth-child(2)", "css:finder"],
+        ["xpath=//select[@name='tipo_4']", "xpath:attributes"],
+        ["xpath=//div[5]/select[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78059315-bfb9-4b38-9f4a-034dd5291133",
+      "comment": "",
+      "command": "select",
+      "target": "name=tipo_4",
+      "targets": [],
+      "value": "label=ESPADA"
+    }, {
+      "id": "81c9685d-638f-4c66-9ccb-d6cef41ef66b",
+      "comment": "",
+      "command": "click",
+      "target": "css=th",
+      "targets": [
+        ["css=th", "css:finder"],
+        ["xpath=//th", "xpath:position"],
+        ["xpath=//th[contains(.,'Cartas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6389f672-f8de-4728-96b9-bf75d58e5daf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Generar Jugada')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a8c50f9-26d8-4e66-89cb-45e2a1251588",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=h1:nth-child(4)",
+      "targets": [
+        ["css=h1:nth-child(4)", "css:finder"],
+        ["xpath=//h1[2]", "xpath:position"],
+        ["xpath=//h1[contains(.,'Jugada: POKER')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "17913bf0-e3da-45a1-9357-4a5555819e17",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dccc30a8-6471-47da-8043-06d9724dc91d"]
+  }],
+  "urls": ["https://localhost:7023/"],
+  "plugins": []
+}
